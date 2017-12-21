@@ -34,7 +34,7 @@ public class LoadWeatherData {
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
         String currentDate = df.format(Calendar.getInstance().getTime());
         System.out.print(currentDate);
-        url="http://api.worldweatheronline.com/premium/v1/ski.ashx?key=6670809e42f34e19aa2153925171302&q="+urlInputEncoded+"&format=json&num_of_days=1&date="+currentDate;
+        url="http://api.worldweatheronline.com/premium/v1/ski.ashx?key=xxxx&q="+urlInputEncoded+"&format=json&num_of_days=1&date="+currentDate;
 
         RequestQueue queue = Volley.newRequestQueue(this);
 
